@@ -2,7 +2,7 @@
 //  as for the hunters , indice 7 = uch_b1_s 
 //  and read more about us and our licences etc
 
-let pregnant = true;
+let not_pregnant = false;
 let money = 999999999;
 let kids = ["chouchou","ARBI","kAFON","Ahmed mo7sen","Klay BBJ"]
 
