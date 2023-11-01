@@ -1,0 +1,214 @@
+/* 
+    this is Admin : 0xAnis speaking , thanks to my dev team
+    you will only find CSS Code and its explanation 
+    CSS File owned by cybersicca 
+        12/08/2007              12:56:7948 
+*/
+
+/*-----------------------------------------*/
+
+/* Everything */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+
+/* body style */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #101113;
+    text-align: center;
+}
+
+/*  component 4 = ga_b4r */
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 0 10px;
+}
+
+/* remove underline */
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 80%;
+}
+
+/* important div cool */
+.intro{
+    color: #101113;
+    font-size: 36px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    height: 50vh;
+}
+
+/* Nothing ahead  */
+.intro .p1{
+    color: #cfdcff;
+    font-variant: small-caps;
+    font-size: 38px;
+}
+
+.intro .p2{
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+    padding: 80px 20px;
+    top: 250px;
+    left: 70px;
+}
+
+.intro .p3{
+    color: whitesmoke;
+}
+
+.intro .help{
+    font-size: 28px;
+}
+
+/* Adjusting gif size */
+.intro img{
+    width: 160px;
+    display: inline-block;
+    margin-left: 60px ;
+}
+
+/* calc */
+.all{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.all h1{
+    color: whitesmoke;
+}
+
+/* perhaps 4 = ga_b4r */
+.calculator {
+    background-color: #333;
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 60px;
+    text-align: right;
+    width: 420px;
+    margin: auto;
+}
+
+/* Are you stalking me ? -_- */
+.output {
+    font-size: 24px;
+    width: 100%;
+    margin: 5px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* buttons parameters */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* distance input */
+.calculator input{
+    margin: 20px auto ;
+}
+
+/* site of my data */
+.upload-container {
+    max-width: 800px;
+    margin: 10vh auto;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.upload-item {
+    background-color: #101113;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.upload-item h2 {
+    color: #ff6d00;
+}
+
+.upload-item p {
+    margin: 10px 0;
+    color: whitesmoke;
+}
+
+.download-button{
+    margin: 0 auto;
+}
+
+/* credits + end */
+.ender{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60vw;
+}
+
+.ender input{
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.ender h1{
+    color: #2e3138;
+    font-variant: small-caps;
+}
+
+/* Thanks for spying -__-  */ 
+
+.hide{
+    display: none;
+}
+
+.end-creds{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 221, 255);
+}
