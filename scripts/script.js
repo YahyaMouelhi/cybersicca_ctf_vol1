@@ -95,21 +95,10 @@ let scores_grades = [10,78,32,19,34,56,18,2]
 let countries = true;
 var chorta = "true"
 
-let output = '';
 const Langs = ["html","css","python","javascript","perl"];
 Tools+=".html";
 
-function appendToOutput(value) {
-    output += value;
-    document.getElementById('output').value = output;
-}
-
 BitsArray += "_";
-function clearOutput() {
-    output = '';
-    "#flag";
-    document.getElementById('output').value = '';
-}
 
 let scores = [10,78,32,19,34,56,18,2]
 let country = true;
@@ -121,6 +110,16 @@ BitsArray += "4";
 var wife,husband,family;
 
 // part hahahahahahahahaha
+let output = '';
+function appendToOutput(value) {
+    output += value;
+    document.getElementById('output').value = output;
+}
+function clearOutput() {
+    output = '';
+    "#flag";
+    document.getElementById('output').value = '';
+}
 function calculateResult() {
     try {
         let result = 0;
