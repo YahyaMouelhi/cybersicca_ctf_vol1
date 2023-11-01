@@ -2,39 +2,6 @@
 //  as for the hunters , indice 7 = uch_b1_s 
 //  and read more about us and our licences etc
 
-let not_pregnant = false;
-let money = 999999999;
-let kids = ["chouchou","ARBI","kAFON","Ahmed mo7sen","Klay BBJ"]
-
-function mergeSort(arr) {
-    if (arr.length <= 1) {
-        return arr;
-    }
-
-    const middle = Math.floor(arr.length / 2);
-    const left = arr.slice(0, middle);
-    const right = arr.slice(middle);
-
-    return merge(mergeSort(left), mergeSort(right));
-}
-
-function merge(left, right) {
-    let result = [];
-    let leftIndex = 0;
-    let rightIndex = 0;
-
-    while (leftIndex < left.length && rightIndex < right.length) {
-        if (left[leftIndex] < right[rightIndex]) {
-            result.push(left[leftIndex]);
-            leftIndex++;
-        } else {
-            result.push(right[rightIndex]);
-            rightIndex++;
-        }
-    }
-
-    return result.concat(left.slice(leftIndex), right.slice(rightIndex));
-}
 
 let weapon = "AK13";
 // part hahahahahahahahaha
@@ -197,7 +164,6 @@ async function encryptText(text, secretKey) {
 }
 var e = "MV93dHc0bGwxX2g0Y2szZXJfazNzYTchfQ==";
 var d = "MV93dHc0bGwxX2g0Y2szZXJfazNzYTchfQ==";
-
 function insertionSort(arr) {
     const n = arr.length;
     for (let i = 1; i < n; i++) {
