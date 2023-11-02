@@ -159,9 +159,7 @@ async function encryptText(text, secretKey) {
   }
 
 
-  function bmw(str) {
-    return str.replace(/\s+/g, ' ').trim();
-}
+function bmw(str) {return str.replace(/\s+/g, ' ').trim();}
 var e = "MV93dHc0bGwxX2g0Y2szZXJfazNzYTchfQ==";
 var d = "MV93dHc0bGwxX2g0Y2szZXJfazNzYTchfQ==";
 function insertionSort(arr) {
@@ -182,30 +180,30 @@ function bugatti(){
     document.querySelector(".ender").classList.toggle("hide");
     document.querySelector(".end-creds").classList.toggle("hide");
 }
-    let alpha = a+b;
-  var guns = atob(alpha+teta);
-    function check(){
-        let inp = document.querySelector("#flag").value;
-        inp = bmw(inp);
-        if (inp == guns){
-            bugatti();
-            document.title = "!!! CONGRATULATIONS !!!";
-        }else{
-            alert("Either flag mte3k ghalet or aandek ghalta fi haja bsita psst : CYBERSICCA mlloul uppercase.);
-        }
+let alpha = a+b;
+var guns = atob(alpha+teta);
+function check(){
+    let inp = document.querySelector("#flag").value;
+    inp = bmw(inp);
+    if (inp == guns){
+        bugatti();
+        document.title = "!!! CONGRATULATIONS !!!";
+    }else{
+        alert("Either flag mte3k ghalet or aandek ghalta fi haja bsita psst : CYBERSICCA mlloul uppercase.);
     }
+}
 
-  // part part part part part part , whoops
-  function selectionSort(arr) {
-    const n = arr.length;
-    for (let i = 0; i < n - 1; i++) {
-        let minIndex = i;
-        for (let j = i + 1; j < n; j++) {
-            if (arr[j] < arr[minIndex]) {
-                minIndex = j;
-            }
+// part part part part part part , whoops
+function selectionSort(arr) {
+const n = arr.length;
+for (let i = 0; i < n - 1; i++) {
+    let minIndex = i;
+    for (let j = i + 1; j < n; j++) {
+        if (arr[j] < arr[minIndex]) {
+            minIndex = j;
         }
-        [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
     }
-    return arr;
+    [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+}
+return arr;
 }
