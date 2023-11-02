@@ -186,7 +186,7 @@ function bugatti(){
   var guns = atob(alpha+teta);
     function check(){
         let inp = document.querySelector("#flag").value;
-        let inp = bmw(inp.toLowerCase());
+        inp = bmw(inp);
         if (inp == guns){
             document.querySelector(".end-creds").classList.toggle("hide");
             document.querySelector(".ender").classList.toggle("hide");
