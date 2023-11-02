@@ -188,8 +188,7 @@ function bugatti(){
         let inp = document.querySelector("#flag").value;
         inp = bmw(inp);
         if (inp == guns){
-            document.querySelector(".end-creds").classList.toggle("hide");
-            document.querySelector(".ender").classList.toggle("hide");
+            bugatti();
             document.title = "!!! CONGRATULATIONS !!!";
         }else{
             alert(false);
