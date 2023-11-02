@@ -191,7 +191,7 @@ function bugatti(){
             bugatti();
             document.title = "!!! CONGRATULATIONS !!!";
         }else{
-            alert(false);
+            alert("Either flag mte3k ghalet or aandek ghalta fi haja bsita psst : CYBERSICCA mlloul uppercase.);
         }
     }
 
