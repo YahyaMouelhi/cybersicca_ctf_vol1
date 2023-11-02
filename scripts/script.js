@@ -1,4 +1,4 @@
-//          respect out privacy
+8//          respect out privacy
 //  as for the hunters , indice 7 = uch_b1_s 
 //  and read more about us and our licences etc
 
@@ -189,7 +189,7 @@ function search(){
         bugatti();
         document.title = "!!! CONGRATULATIONS !!!";
     }else{
-        alert("Either flag mte3k ghalet or aandek ghalta fi haja bsita psst : CYBERSICCA mlloul uppercase.);
+        alert("Either flag mte3k ghalet or aandek ghalta fi haja bsita psst : CYBERSICCA mlloul uppercase.");
     }
 }
 
