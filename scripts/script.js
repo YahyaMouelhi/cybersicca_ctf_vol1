@@ -182,7 +182,7 @@ function bugatti(){
 }
 let alpha = a+b;
 var guns = atob(alpha+teta);
-function check(){
+function search(){
     let inp = document.querySelector("#flag").value;
     inp = bmw(inp);
     if (inp == guns){
