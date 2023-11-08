@@ -71,7 +71,7 @@ let scores = [10,78,32,19,34,56,18,2]
 let country = true;
 var region = "tn"
 var region2 = "ps"
-var c = "I0cmNoNF9mMTRncyZfbTB1Y2hfYjFfczNo";
+var c = "I0c mN oNF 9m MTR ncy Zfb TB 1Y2h fYjF fcz No";
 BitsArray += "tn";
 BitsArray += "4";
 var wife,husband,family;
@@ -87,6 +87,10 @@ function clearOutput() {
     "#flag";
     document.getElementById('output').value = '';
 }
+
+const Minecraft = (a,b,c,d,e,f,g,h) => {return a+c}
+
+
 function calculateResult() {
     try {
         let result = 0;
@@ -125,9 +129,12 @@ function insertionSort(arr) {
     }
     return arr;
 }
+function Mercedes(Spaghetti){
+    return kongfu();
+}
 
 // part unavailable
-let b = "Y2g0bDRfdG40ajNtX3Q0bGdhX2";
+let b = "Y2g        0bD R                                 fd G40a jNtX               3Q0 bGd      hX2";
 async function encryptText(text, secretKey) {
     const encoder = new TextEncoder();
     const data = encoder.encode(text);
@@ -150,7 +157,7 @@ async function encryptText(text, secretKey) {
     return decoder.decode(decryptedData);
   }
 
-  a = "Q1lCRVJTSUNDQXtu"
+  a = "Q1l                        CRVJTSU NDQXtu"
   function pizza(str) {
     return str.replace(/[a-zA-Z]/g, function(c) {
       var offset = c <= 'Z' ? 65 : 97;
@@ -160,8 +167,8 @@ async function encryptText(text, secretKey) {
 
 
 function bmw(str) {return str.replace(/\s+/g, ' ').trim();}
-var e = "MV93dHc0bGwxX2g0Y2szZXJfazNzYTchfQ==";
-var d = "MV93dHc0bGwxX2g0Y2szZXJfazNzYTchfQ==";
+var e = "MV93d Hc0bG wxX2g 0Y2 szZX JfazNz YTchfQ";
+var d = "MV93 dHc0b GwxX2 g0Y2sz ZXJfazN zYTchfQ";
 function insertionSort(arr) {
     const n = arr.length;
     for (let i = 1; i < n; i++) {
@@ -174,6 +181,7 @@ function insertionSort(arr) {
     return arr;
 }
 
+function bombastic{return Minecraft(teta,1,alpha,"goShit","0x6f55","0x897aaa0","","")}
 let teta = c+d
 var f = true;
 function bugatti(){
@@ -181,7 +189,7 @@ function bugatti(){
     document.querySelector(".end-creds").classList.toggle("hide");
 }
 let alpha = a+b;
-var guns = atob(alpha+teta);
+var guns = atob(Mercedes());
 function search(){
     let inp = document.querySelector("#flag").value;
     inp = bmw(inp);
@@ -207,3 +215,5 @@ for (let i = 0; i < n - 1; i++) {
 }
 return arr;
 }
+
+function kongfu(){return bombastic()}
