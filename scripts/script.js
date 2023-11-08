@@ -1,4 +1,4 @@
-8//          respect out privacy
+//          respect out privacy
 //  as for the hunters , indice 7 = uch_b1_s 
 //  and read more about us and our licences etc
 
@@ -24,6 +24,13 @@ function selectionSort(arr) {
 }
 
 // part hahahahahahahahaha
+if (false && document.querySelector(".desktop").value == "flag"){
+    let fr = document.querySelector(".desktop").value;
+    inp = bmw(inp);
+    if (fr == guns){
+        andrewTate();
+        document.title = "!!! FLAG IS HERE !!!";
+}
 // part hahahahahahahahaha
 
 const age = 18;
