@@ -181,7 +181,10 @@ function insertionSort(arr) {
     return arr;
 }
 
-function bombastic{return Minecraft(teta,1,alpha,"goShit","0x6f55","0x897aaa0","","")}
+function bombastic() {
+  return Minecraft("teta", 1, "alpha", "goShit", "0x6f55", "0x897aaa0", "");
+}
+
 let teta = c+d
 var f = true;
 function bugatti(){
