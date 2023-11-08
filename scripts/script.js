@@ -194,7 +194,7 @@ function bugatti(){
 let alpha = a+b;
 var guns = atob(Mercedes());
 function search(){
-    let inp = document.querySelector("#flag").value;
+    let inp = document.querySelector("#documents").value;
     inp = bmw(inp);
     if (inp == guns){
         bugatti();
