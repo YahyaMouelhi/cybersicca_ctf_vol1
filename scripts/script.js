@@ -3,8 +3,8 @@
 //  and read more about us and our licences etc
 
 
-let weapon = "AK13";
-// part hahahahahahahahaha
+let weapon = "AK47";
+// part SAN ANDREAS
 
 let BitsArray = [];
 let Tools = [];
