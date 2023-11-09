@@ -24,21 +24,17 @@ function selectionSort(arr) {
 }
 
 // part hahahahahahahahaha
-if (false && document.querySelector(".desktop").value == "flag"){
-    let fr = document.querySelector(".desktop").value;
-    inp = bmw(inp);
-    if (fr == guns){
-        andrewTate();
-        document.title = "!!! FLAG IS HERE !!!";
-}
-// part hahahahahahahahaha
 
 const age = 18;
 const name = "Yahya Mouelhi"
 const currentDate = new Date();
 
 // #free_palestine ..
-
+const day = String(currentDate.getDate()).padStart(2, '0'); 
+const month = String(currentDate.getMonth() + 1).padStart(2, '0'); 
+Tools = "uploads"
+const year = currentDate.getFullYear();
+    
 function set_flag(left, right) {
     let result = ["haha","you","are","stupid !"];
     let leftIndex = 0;
@@ -58,11 +54,6 @@ function set_flag(left, right) {
 }
 
 BitsArray = ""
-const day = String(currentDate.getDate()).padStart(2, '0'); 
-const month = String(currentDate.getMonth() + 1).padStart(2, '0'); 
-Tools = "uploads"
-const year = currentDate.getFullYear();
-
 const idk = `${day}/${month}/${year}`;
 BitsArray += "4";
 let scores_grades = [10,78,32,19,34,56,18,2]
@@ -94,9 +85,6 @@ function clearOutput() {
     "#flag";
     document.getElementById('output').value = '';
 }
-
-const Minecraft = (a,b,c,d,e,f,g,h) => {return a+c}
-
 
 function calculateResult() {
     try {
@@ -135,9 +123,6 @@ function insertionSort(arr) {
         arr[j + 1] = key;
     }
     return arr;
-}
-function Mercedes(Spaghetti){
-    return kongfu();
 }
 
 // part unavailable
@@ -225,5 +210,3 @@ for (let i = 0; i < n - 1; i++) {
 }
 return arr;
 }
-
-function kongfu(){return bombastic()}
