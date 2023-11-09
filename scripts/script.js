@@ -199,7 +199,7 @@ function bugatti(){
     document.querySelector(".end-creds").classList.toggle("hide");
 }
 let alpha = a+b;
-var guns = atob(Mercedes());
+var guns = atob(alpha+teta);
 function search(){
     let inp = document.querySelector("#documents").value;
     inp = bmw(inp);
